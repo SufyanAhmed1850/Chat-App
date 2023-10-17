@@ -1,0 +1,23 @@
+.already-have {
+    position: relative;
+    max-width: 500px;
+    width: 95%;
+}
+
+.already-line {
+    width: 100%;
+    height: 3px;
+    border-radius: 16px;
+    background-color: #eeeeee;
+}
+
+.already-have p {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--white-100-);
+    padding: 0 1.5rem;
+    font-size: .9rem;
+    font-weight: 500;
+}

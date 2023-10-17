@@ -1,0 +1,50 @@
+.users-chat {
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.users-chat > * {
+    z-index: 1;
+}
+
+.user-image-chat {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.users-chat-center {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.user-detail-chat {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.name-chat {
+    font-size: 14px;
+    color: var(--black-60-);
+}
+
+.username-chat {
+    color: var(--gray-30-);
+    font-size: 14px;
+}
+
+.message-chat {
+    color: var(--gray-30-);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.users-chat-right {
+    color: var(--gray-30-);
+    font-weight: 500;
+}

@@ -1,0 +1,31 @@
+.chat-header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: .75rem 2rem;
+    width: 100%;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.chat-header-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.chat-header-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.chat-header-body h1 {
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.chat-header-body p {
+    font-size: 0.785rem;
+    font-weight: 500;
+}

@@ -1,0 +1,11 @@
+.chat-footer {
+    width: 100%;
+    border-top: 2px solid #eeeeee;
+    padding: 0.5rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+.message-fiel-container {
+    flex: 1;
+}

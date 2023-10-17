@@ -1,0 +1,37 @@
+.logged-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.logged-user-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.logged-user-detail {
+    flex: 1;
+}
+
+.logged-user-detail {
+    line-height: 1.2;
+}
+
+.logged-name {
+    font-size: 1.125rem;
+    color: var(--black-60-);
+    font-weight: 700;
+}
+
+.logged-username {
+    color: var(--gray-30-);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.dots-container {
+    cursor: pointer;
+}
